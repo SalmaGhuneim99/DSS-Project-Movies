@@ -1,0 +1,10 @@
+C:\Users\Basoma\OneDrive\Desktop\2nd Term-3rd Year\Decision Support System\DSS Project\DSS_Project\bin\Debug\DSS_Project.exe.config
+C:\Users\Basoma\OneDrive\Desktop\2nd Term-3rd Year\Decision Support System\DSS Project\DSS_Project\bin\Debug\DSS_Project.exe
+C:\Users\Basoma\OneDrive\Desktop\2nd Term-3rd Year\Decision Support System\DSS Project\DSS_Project\bin\Debug\DSS_Project.pdb
+C:\Users\Basoma\OneDrive\Desktop\2nd Term-3rd Year\Decision Support System\DSS Project\DSS_Project\obj\Debug\DSS_Project.csprojAssemblyReference.cache
+C:\Users\Basoma\OneDrive\Desktop\2nd Term-3rd Year\Decision Support System\DSS Project\DSS_Project\obj\Debug\DSS_Project.Form1.resources
+C:\Users\Basoma\OneDrive\Desktop\2nd Term-3rd Year\Decision Support System\DSS Project\DSS_Project\obj\Debug\DSS_Project.Properties.Resources.resources
+C:\Users\Basoma\OneDrive\Desktop\2nd Term-3rd Year\Decision Support System\DSS Project\DSS_Project\obj\Debug\DSS_Project.csproj.GenerateResource.cache
+C:\Users\Basoma\OneDrive\Desktop\2nd Term-3rd Year\Decision Support System\DSS Project\DSS_Project\obj\Debug\DSS_Project.csproj.CoreCompileInputs.cache
+C:\Users\Basoma\OneDrive\Desktop\2nd Term-3rd Year\Decision Support System\DSS Project\DSS_Project\obj\Debug\DSS_Project.exe
+C:\Users\Basoma\OneDrive\Desktop\2nd Term-3rd Year\Decision Support System\DSS Project\DSS_Project\obj\Debug\DSS_Project.pdb

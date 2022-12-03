@@ -1,0 +1,1039 @@
+<?xml version="1.0"?>
+<model name ="movie recommendation">
+<block>
+<rule name="rule1">
+<antecedent>
+<viewer_Age>
+<value>Less than 8 </value>
+</viewer_Age>
+<Animation>
+<values>exist</values>
+</Animation>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values>Short</values>
+</Duration>
+<Joel_Stutz>
+<values>exist</values>
+</Joel_Stutz>
+</antecedent>
+<consequent>
+<generally>BIBI Film exist</generally>
+</consequent>
+</rule>
+<rule name="rule2">
+<antecedent>
+<viewer_Age>
+<value>Less than 8 </value>
+</viewer_Age>
+<Animation>
+<values>exist</values>
+</Animation>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values>Short</values>
+</Duration>
+<Actor>
+<values>Fired and Sam</values>
+</Actor>
+</antecedent>
+<consequent>
+<generally>The fox and the bird Film exist</generally>
+</consequent>
+</rule>
+<rule name="rule3">
+<antecedent>
+<viewer_Age>
+<value>Less than 8 </value>
+</viewer_Age>
+<Animation>
+<values>exist</values>
+</Animation>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values>Long</values>
+</Duration>
+<Actor>
+<values>Andrew Stanton </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally>Wall Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule4">
+<antecedent>
+<viewer_Age>
+<value>Less than 8 </value>
+</viewer_Age>
+<Animation>
+<values>exist</values>
+</Animation>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values>Long</values>
+</Duration>
+<Actor>
+<values>Gil Kenan </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Monster House Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule5">
+<antecedent>
+<viewer_Age>
+<value>Less than 8 </value>
+</viewer_Age>
+<Animation>
+<values>exist</values>
+</Animation>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values>Short</values>
+</Duration>
+<Actor>
+<values> Carlos Martin </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Tone Deaf Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule6">
+<antecedent>
+<viewer_Age>
+<value>Less than 8 </value>
+</viewer_Age>
+<Animation>
+<values>exist</values>
+</Animation>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values>Short</values>
+</Duration>
+<Actor>
+<values>Millivette Gonzalez</values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Stellar Moves Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule7">
+<antecedent>
+<viewer_Age>
+<value>Less than 8 </value>
+</viewer_Age>
+<Animation>
+<values>exist</values>
+</Animation>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values>Long</values>
+</Duration>
+<Actor>
+<values> Hiro Ishibashi </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Children of the sea Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule8">
+<antecedent>
+<viewer_Age>
+<value>Less than 8 </value>
+</viewer_Age>
+<Animation>
+<values>exist</values>
+</Animation>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values>Long</values>
+</Duration>
+<Actor>
+<values> Bryce Papenbrook </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> A Whisker Away </generally>
+</consequent>
+</rule>
+<rule name="rule9">
+<antecedent>
+<viewer_Age>
+<value>Less than 8 </value>
+</viewer_Age>
+<Animation>
+<values> not exist </values>
+</Animation>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values>Short</values>
+</Duration>
+<Actor>
+<values> Adam Robert </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Babys Day Out Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule10">
+<antecedent>
+<viewer_Age>
+<value>Less than 8 </value>
+</viewer_Age>
+<Animation>
+<values> not exist </values>
+</Animation>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values>Short</values>
+</Duration>
+<Actor>
+<values> Macaulay Culkin </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Home Alone Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule11">
+<antecedent>
+<viewer_Age>
+<value>Less than 8 </value>
+</viewer_Age>
+<Animation>
+<values> not exist </values>
+</Animation>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values> Long </values>
+</Duration>
+<Actor>
+<values> Dwayne Johnson</values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Jmanji Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule12">
+<antecedent>
+<viewer_Age>
+<value>Less than 8 </value>
+</viewer_Age>
+<Animation>
+<values> not exist </values>
+</Animation>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values> Long </values>
+</Duration>
+<Actor>
+<values> Jason James Richter </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally>   Free Willy Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule13">
+<antecedent>
+<viewer_Age>
+<value>Less than 8 </value>
+</viewer_Age>
+<Animation>
+<values> not exist </values>
+</Animation>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values> Short </values>
+</Duration>
+<Actor>
+<values> Jeoy King </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally>  Ramona and Beezus Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule14">
+<antecedent>
+<viewer_Age>
+<value>Less than 8 </value>
+</viewer_Age>
+<Animation>
+<values> not exist </values>
+</Animation>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values> Short </values>
+</Duration>
+<Actor>
+<values> Sean Astin </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally>  The Goonies Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule15">
+<antecedent>
+<viewer_Age>
+<value>Less than 8 </value>
+</viewer_Age>
+<Animation>
+<values> not exist </values>
+</Animation>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values> Long </values>
+</Duration>
+<Actor>
+<values> Anna Chlumsky </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally>  My Girl Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule16">
+<antecedent>
+<viewer_Age>
+<value>Less than 8 </value>
+</viewer_Age>
+<Animation>
+<values> not exist </values>
+</Animation>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values> Long </values>
+</Duration>
+<Actor>
+<values> Rowan Atkinson </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally>  Mr.Bean Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule17">
+<antecedent>
+<viewer_Age>
+<value>Between 8 and 18 </value>
+</viewer_Age>
+<Film_Category>
+<values> Drama Film </values>
+</Film_Category>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values> Short </values>
+</Duration>
+<Actor>
+<values> Chelsea Lupkin </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Balls Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule18">
+<antecedent>
+<viewer_Age>
+<value>Between 8 and 18 </value>
+</viewer_Age>
+<Film_Category>
+<values> Drama Film </values>
+</Film_Category>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values> Short </values>
+</Duration>
+<Actor>
+<values> Ivan Kander </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Wish you were there  Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule19">
+<antecedent>
+<viewer_Age>
+<value>Between 8 and 18 </value>
+</viewer_Age>
+<Film_Category>
+<values> Drama Film </values>
+</Film_Category>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values> Long </values>
+</Duration>
+<Actor>
+<values> Francis Ford Copolla </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> The GodFather Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule20">
+<antecedent>
+<viewer_Age>
+<value>Between 8 and 18 </value>
+</viewer_Age>
+<Film_Category>
+<values> Drama Film </values>
+</Film_Category>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values> Long </values>
+</Duration>
+<Actor>
+<values> Paul Thomas Andersor </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Boogie Nights Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule21">
+<antecedent>
+<viewer_Age>
+<value>Between 8 and 18 </value>
+</viewer_Age>
+<Film_Category>
+<values> Drama Film </values>
+</Film_Category>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values> Short </values>
+</Duration>
+<Actor>
+<values> Ivan Kander </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Tantrums Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule22">
+<antecedent>
+<viewer_Age>
+<value>Between 8 and 18 </value>
+</viewer_Age>
+<Film_Category>
+<values> Drama Film </values>
+</Film_Category>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values> Short </values>
+</Duration>
+<Actor>
+<values> Rob Munday </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> The Gallery Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule23">
+<antecedent>
+<viewer_Age>
+<value>Between 8 and 18 </value>
+</viewer_Age>
+<Film_Category>
+<values> Drama Film </values>
+</Film_Category>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values> Long </values>
+</Duration>
+<Actor>
+<values> Liam Hemworth </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Arkansas Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule24">
+<antecedent>
+<viewer_Age>
+<value>Between 8 and 18 </value>
+</viewer_Age>
+<Film_Category>
+<values> Drama Film </values>
+</Film_Category>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values> Long </values>
+</Duration>
+<Actor>
+<values> Jim Parsons </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> The Boys in the Band Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule25">
+<antecedent>
+<viewer_Age>
+<value>Between 8 and 18 </value>
+</viewer_Age>
+<Film_Category>
+<values> Comedy Film </values>
+</Film_Category>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values> Short </values>
+</Duration>
+<Actor>
+<values> Jay Roach </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Meet the Parents Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule26">
+<antecedent>
+<viewer_Age>
+<value>Between 8 and 18 </value>
+</viewer_Age>
+<Film_Category>
+<values> Comedy Film </values>
+</Film_Category>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values> Long </values>
+</Duration>
+<Actor>
+<values> Quentin Tarantino </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Pulp Fiction Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule27">
+<antecedent>
+<viewer_Age>
+<value>Between 8 and 18 </value>
+</viewer_Age>
+<Film_Category>
+<values> Comedy Film </values>
+</Film_Category>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values> Long </values>
+</Duration>
+<Actor>
+<values> Edgar Wright</values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Hot Fuzz Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule28">
+<antecedent>
+<viewer_Age>
+<value>Between 8 and 18 </value>
+</viewer_Age>
+<Film_Category>
+<values> Comedy Film </values>
+</Film_Category>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values> Short </values>
+</Duration>
+<Actor>
+<values> Ivan Kander</values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Social Mediation Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule29">
+<antecedent>
+<viewer_Age>
+<value>Between 8 and 18 </value>
+</viewer_Age>
+<Film_Category>
+<values> Comedy Film </values>
+</Film_Category>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values> Short </values>
+</Duration>
+<Actor>
+<values> Jason Sondihi</values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Me Time Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule30">
+<antecedent>
+<viewer_Age>
+<value>Between 8 and 18 </value>
+</viewer_Age>
+<Film_Category>
+<values> Comedy Film </values>
+</Film_Category>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values> Long </values>
+</Duration>
+<Actor>
+<values> Katherine Langford </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Spontaneous Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule31">
+<antecedent>
+<viewer_Age>
+<value>Between 8 and 18 </value>
+</viewer_Age>
+<Film_Category>
+<values> Comedy Film </values>
+</Film_Category>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values> Long </values>
+</Duration>
+<Actor>
+<values> Mattehew McConaughey </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> The Gentlemen Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule32">
+<antecedent>
+<viewer_Age>
+<value>Greater than 18  </value>
+</viewer_Age>
+<Film_Category>
+<values> Horror Film </values>
+</Film_Category>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values> Greater than 2 Hours </values>
+</Duration>
+<Actor>
+<values>Kar Hadebrant</values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Let the right one in Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule33">
+<antecedent>
+<viewer_Age>
+<value>Greater than 18  </value>
+</viewer_Age>
+<Film_Category>
+<values> Horror Film </values>
+</Film_Category>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values> Greater than 2 Hours </values>
+</Duration>
+<Actor>
+<values>Bruce Campell</values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Evil Dead Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule34">
+<antecedent>
+<viewer_Age>
+<value>Greater than 18  </value>
+</viewer_Age>
+<Film_Category>
+<values> Horror Film </values>
+</Film_Category>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values> Less than 2 Hours </values>
+</Duration>
+<Actor>
+<values>Drew Barry</values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Scream Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule35">
+<antecedent>
+<viewer_Age>
+<value>Greater than 18  </value>
+</viewer_Age>
+<Film_Category>
+<values> Horror Film </values>
+</Film_Category>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values> Less than 2 Hours </values>
+</Duration>
+<Actor>
+<values>Roy Scheider</values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Jaws Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule36">
+<antecedent>
+<viewer_Age>
+<value>Greater than 18  </value>
+</viewer_Age>
+<Film_Category>
+<values> Horror Film </values>
+</Film_Category>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values> Greater than 2 Hours </values>
+</Duration>
+<Actor>
+<values>Janhvi Kapoor</values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> RooHi Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule37">
+<antecedent>
+<viewer_Age>
+<value>Greater than 18  </value>
+</viewer_Age>
+<Film_Category>
+<values> Horror Film </values>
+</Film_Category>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values>  Greater than 2 Hours </values>
+</Duration>
+<Actor>
+<values>Bill Skrsgard</values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> IT Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule38">
+<antecedent>
+<viewer_Age>
+<value>Greater than 18  </value>
+</viewer_Age>
+<Film_Category>
+<values> Horror Film </values>
+</Film_Category>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values>  Less than 2 Hours </values>
+</Duration>
+<Actor>
+<values>Mia Maestro</values>
+</Actor>
+</antecedent>
+<consequent>
+<generally>The binding Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule39">
+<antecedent>
+<viewer_Age>
+<value>Greater than 18  </value>
+</viewer_Age>
+<Film_Category>
+<values> Horror Film </values>
+</Film_Category>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values>  Less than 2 Hours </values>
+</Duration>
+<Actor>
+<values> Jenna </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally>The baby sitter :Killer queen  Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule40">
+<antecedent>
+<viewer_Age>
+<value>Greater than 18  </value>
+</viewer_Age>
+<Film_Category>
+<values> Action  Film </values>
+</Film_Category>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values>  Greater than 2 Hours </values>
+</Duration>
+<Actor>
+<values> Keano  </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally>The Matrix  Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule41">
+<antecedent>
+<viewer_Age>
+<value>Greater than 18  </value>
+</viewer_Age>
+<Film_Category>
+<values> Action  Film </values>
+</Film_Category>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values>  Greater than 2 Hours </values>
+</Duration>
+<Actor>
+<values> Russell Crowe  </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally>Gladiator  Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule42">
+<antecedent>
+<viewer_Age>
+<value>Greater than 18  </value>
+</viewer_Age>
+<Film_Category>
+<values> Action  Film </values>
+</Film_Category>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values>  Less than 2 Hours </values>
+</Duration>
+<Actor>
+<values> Mel Gibson  </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally>Mad Max 2 Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule43">
+<antecedent>
+<viewer_Age>
+<value>Greater than 18  </value>
+</viewer_Age>
+<Film_Category>
+<values> Action  Film </values>
+</Film_Category>
+<Film_era>
+<values>Old</values>
+</Film_era>
+<Duration>
+<values>  Less than 2 Hours </values>
+</Duration>
+<Actor>
+<values>Bruce  </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally>Enter the dragon Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule44">
+<antecedent>
+<viewer_Age>
+<value>Greater than 18  </value>
+</viewer_Age>
+<Film_Category>
+<values> Action  Film </values>
+</Film_Category>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values>  Greater than 2 Hours </values>
+</Duration>
+<Actor>
+<values> Keanu Reeves  </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> John Wick 3 Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule45">
+<antecedent>
+<viewer_Age>
+<value>Greater than 18  </value>
+</viewer_Age>
+<Film_Category>
+<values> Action  Film </values>
+</Film_Category>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values>  Greater than 2 Hours </values>
+</Duration>
+<Actor>
+<values> Jason Momoa  </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> Aqua Man Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule46">
+<antecedent>
+<viewer_Age>
+<value>Greater than 18  </value>
+</viewer_Age>
+<Film_Category>
+<values> Action  Film </values>
+</Film_Category>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values>  Less than 2 Hours </values>
+</Duration>
+<Actor>
+<values> Jason Statham  </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally> The Meg Film exist </generally>
+</consequent>
+</rule>
+<rule name="rule47">
+<antecedent>
+<viewer_Age>
+<value>Greater than 18  </value>
+</viewer_Age>
+<Film_Category>
+<values> Action  Film </values>
+</Film_Category>
+<Film_era>
+<values>New</values>
+</Film_era>
+<Duration>
+<values>  Less than 2 Hours </values>
+</Duration>
+<Actor>
+<values> Dwayne Johnson </values>
+</Actor>
+</antecedent>
+<consequent>
+<generally>Rampage Film exist</generally>
+</consequent>
+</rule>
+</block>
+</model>
